@@ -1,0 +1,220 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(font/IndieFlower-Regular.ttf);
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  
+    background: #3f2b96 !important; 
+
+
+}
+.user{
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 50%;
+    width: 10%;
+    padding: 5px 2px;
+}
+.user i{
+    font-size: 30px;
+    color: #fff;
+    margin: 0 7px;
+}
+.user p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+}
+.login{
+    font-family: myFirstFont;
+    position: fixed;
+    background-color: #fff;
+    z-index: 2;
+    top:50%;
+    left: 50%;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    transition: .4s ease-in-out;
+    font-size: 20px;
+}
+.boxLogin{
+    height: 380px;
+    width: 350px !important;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.boxLogin input{
+    padding:5px 20px;
+}
+.Elements{
+   display: none ;
+}
+.container {
+    font-family: myFirstFont;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* modal */
+.modalBox {
+    font-family: myFirstFont;
+    position: fixed;
+    background-color: #fff;
+    z-index: 2;
+    top:-50%;
+    left: 50%;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    transition: .4s ease-in-out;
+    font-size: 20px;
+}
+
+.col-md-11 {
+    height: 450px;
+    width: 350px !important;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.headerModal{
+    padding: 5px;
+    width: 100%;
+    margin: 10px auto;
+    margin-bottom: 10px;
+    border-bottom: 1px solid slategray;
+}
+.headerModal .close-modal{
+    margin-left: 120px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.mb-5{
+    display: flex;
+    flex-direction: column;
+}
+.col-md-11 .titleTodo {
+   margin-bottom: -9%;
+    height: 50px ;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 30px;
+    border: 1px solid slategray;
+}
+
+.col-md-11 textarea {
+    resize: none;
+    padding: 15px;
+    height: 170px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: 1px solid slategray;
+}
+/* modal End */
+
+/* cardBox Start */
+.cordBox {
+    width: 200px!important;
+    margin-right: 4%;
+}
+
+.card {
+    border: none !important;
+}
+
+.card-body {
+    height: 15rem;
+    display: flex;
+    border: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card-body .fa-plus {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    width: 100px;
+    border-radius: 50px;
+    font-size: 60px;
+    color: rgb(63,81,181);
+    border: 1px dashed rgb(63,81,181);
+}
+
+.card-body .text {
+    font-family: myFirstFont !important;
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(63,81,181);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card-text {
+    height: 60%;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+}
+.icons {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    transition: .2s ease-in;
+}
+.fa-edit,
+.fa-trash-alt {
+    padding: 10px;
+    font-size: 15px;
+}
+.footerBox {
+    width: 100%;
+    display: flex;
+    font-size: 10px;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    color: darkgray;
+    border-top: 1px solid slategray;
+}
+.date{
+    display: flex;
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+.shadow {
+    box-shadow: 0 5px 5px -6px black;
+}
+
+.addBtn{
+    width: 100%;
+    color: #fff !important;
+    background-color: #3f2b96 !important;
+}
+.loginBtn{
+    width: 100%;
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+    color: #fff !important;
+    background-color: #3f2b96 !important;
+}
+/* cardBox end */
